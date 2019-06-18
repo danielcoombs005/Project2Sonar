@@ -1,0 +1,1557 @@
+{
+  "Project.Data.dll": {
+    "C:\\Revature\\Project2Sonar\\Project2Solution\\Project.Data\\Mapper.cs": {
+      "Project.Data.Mapper": {
+        "Project.Domain.Journal Project.Data.Mapper::Map(Project.Data.Entities.Journal)": {
+          "Lines": {
+            "11": 8,
+            "12": 8,
+            "13": 8,
+            "14": 8,
+            "15": 8,
+            "16": 8,
+            "17": 8,
+            "18": 8
+          },
+          "Branches": []
+        },
+        "Project.Data.Entities.Journal Project.Data.Mapper::Map(Project.Domain.Journal)": {
+          "Lines": {
+            "20": 2,
+            "21": 2,
+            "22": 2,
+            "23": 2,
+            "24": 2,
+            "25": 2,
+            "26": 2,
+            "27": 2
+          },
+          "Branches": []
+        },
+        "Project.Domain.Song Project.Data.Mapper::Map(Project.Data.Entities.Song)": {
+          "Lines": {
+            "29": 22,
+            "30": 22,
+            "31": 22,
+            "32": 22,
+            "33": 22,
+            "34": 22,
+            "35": 22,
+            "36": 22,
+            "37": 22,
+            "38": 22,
+            "39": 22
+          },
+          "Branches": []
+        },
+        "Project.Data.Entities.Song Project.Data.Mapper::Map(Project.Domain.Song)": {
+          "Lines": {
+            "41": 2,
+            "42": 2,
+            "43": 2,
+            "44": 2,
+            "45": 2,
+            "46": 2,
+            "47": 2,
+            "48": 2,
+            "49": 2,
+            "50": 2,
+            "51": 2,
+            "52": 2
+          },
+          "Branches": []
+        },
+        "Project.Data.Entities.Person Project.Data.Mapper::Map(Project.Domain.Person)": {
+          "Lines": {
+            "54": 2,
+            "55": 2,
+            "56": 2,
+            "57": 2,
+            "58": 2,
+            "59": 2,
+            "60": 2,
+            "61": 2,
+            "62": 2
+          },
+          "Branches": []
+        },
+        "Project.Domain.Person Project.Data.Mapper::Map(Project.Data.Entities.Person)": {
+          "Lines": {
+            "64": 15,
+            "65": 15,
+            "66": 15,
+            "67": 15,
+            "68": 15,
+            "69": 15,
+            "70": 15,
+            "71": 15,
+            "72": 15
+          },
+          "Branches": []
+        },
+        "Project.Domain.PlayList Project.Data.Mapper::Map(Project.Data.Entities.Playlist)": {
+          "Lines": {
+            "74": 28,
+            "75": 28,
+            "76": 28,
+            "77": 28,
+            "78": 28,
+            "79": 28,
+            "80": 28
+          },
+          "Branches": []
+        },
+        "Project.Data.Entities.Playlist Project.Data.Mapper::Map(Project.Domain.PlayList)": {
+          "Lines": {
+            "82": 2,
+            "83": 2,
+            "84": 2,
+            "85": 2,
+            "86": 2,
+            "87": 2,
+            "88": 2
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Project.Domain.Journal> Project.Data.Mapper::Map(System.Collections.Generic.IEnumerable`1<Project.Data.Entities.Journal>)": {
+          "Lines": {
+            "92": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Project.Data.Entities.Journal> Project.Data.Mapper::Map(System.Collections.Generic.IEnumerable`1<Project.Domain.Journal>)": {
+          "Lines": {
+            "93": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Project.Domain.Person> Project.Data.Mapper::Map(System.Collections.Generic.IEnumerable`1<Project.Data.Entities.Person>)": {
+          "Lines": {
+            "95": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Project.Data.Entities.Person> Project.Data.Mapper::Map(System.Collections.Generic.IEnumerable`1<Project.Domain.Person>)": {
+          "Lines": {
+            "96": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Project.Domain.PlayList> Project.Data.Mapper::Map(System.Collections.Generic.IEnumerable`1<Project.Data.Entities.Playlist>)": {
+          "Lines": {
+            "98": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Project.Data.Entities.Playlist> Project.Data.Mapper::Map(System.Collections.Generic.IEnumerable`1<Project.Domain.PlayList>)": {
+          "Lines": {
+            "99": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Project.Domain.Song> Project.Data.Mapper::Map(System.Collections.Generic.IEnumerable`1<Project.Data.Entities.Song>)": {
+          "Lines": {
+            "101": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Project.Data.Entities.Song> Project.Data.Mapper::Map(System.Collections.Generic.IEnumerable`1<Project.Domain.Song>)": {
+          "Lines": {
+            "102": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\Project2Sonar\\Project2Solution\\Project.Data\\Repository.cs": {
+      "Project.Data.Repository": {
+        "System.Void Project.Data.Repository::CreateJournal(Project.Domain.Journal)": {
+          "Lines": {
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "22": 1
+          },
+          "Branches": []
+        },
+        "System.Void Project.Data.Repository::CreatePerson(Project.Domain.Person)": {
+          "Lines": {
+            "25": 1,
+            "26": 1,
+            "27": 1,
+            "28": 1
+          },
+          "Branches": []
+        },
+        "System.Void Project.Data.Repository::CreatePlayList(Project.Domain.PlayList)": {
+          "Lines": {
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "34": 1
+          },
+          "Branches": []
+        },
+        "System.Void Project.Data.Repository::CreateSong(Project.Domain.Song)": {
+          "Lines": {
+            "37": 1,
+            "38": 1,
+            "39": 1,
+            "40": 1
+          },
+          "Branches": []
+        },
+        "System.Void Project.Data.Repository::DeleteJournal(System.Int32)": {
+          "Lines": {
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1
+          },
+          "Branches": []
+        },
+        "System.Void Project.Data.Repository::DeletePerson(System.Int32)": {
+          "Lines": {
+            "49": 1,
+            "50": 1,
+            "51": 1,
+            "52": 1
+          },
+          "Branches": []
+        },
+        "System.Void Project.Data.Repository::DeletePlayList(System.Int32)": {
+          "Lines": {
+            "55": 1,
+            "56": 1,
+            "57": 1,
+            "58": 1
+          },
+          "Branches": []
+        },
+        "System.Void Project.Data.Repository::DeleteSong(System.Int32)": {
+          "Lines": {
+            "61": 1,
+            "62": 1,
+            "63": 1,
+            "64": 1
+          },
+          "Branches": []
+        },
+        "Project.Domain.Journal Project.Data.Repository::GetJournalById(System.Int32)": {
+          "Lines": {
+            "67": 3,
+            "68": 3,
+            "69": 3,
+            "70": 3
+          },
+          "Branches": []
+        },
+        "Project.Domain.Journal Project.Data.Repository::GetJournalByTitle(System.String)": {
+          "Lines": {
+            "73": 1,
+            "74": 1,
+            "75": 1,
+            "76": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Project.Domain.Journal> Project.Data.Repository::GetJournals()": {
+          "Lines": {
+            "79": 5,
+            "80": 5,
+            "81": 5
+          },
+          "Branches": []
+        },
+        "Project.Domain.Person Project.Data.Repository::GetPersonById(System.Int32)": {
+          "Lines": {
+            "84": 3,
+            "85": 3,
+            "86": 3,
+            "87": 3
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Project.Domain.Person> Project.Data.Repository::GetPersons()": {
+          "Lines": {
+            "90": 4,
+            "91": 4,
+            "92": 4
+          },
+          "Branches": []
+        },
+        "Project.Domain.PlayList Project.Data.Repository::GetPlayListById(System.Int32)": {
+          "Lines": {
+            "95": 3,
+            "96": 3,
+            "97": 3,
+            "98": 3
+          },
+          "Branches": []
+        },
+        "Project.Domain.PlayList Project.Data.Repository::GetPlayListByTitle(System.String)": {
+          "Lines": {
+            "101": 1,
+            "102": 1,
+            "103": 1,
+            "104": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Project.Domain.PlayList> Project.Data.Repository::GetPlayLists()": {
+          "Lines": {
+            "107": 5,
+            "108": 5,
+            "109": 5
+          },
+          "Branches": []
+        },
+        "Project.Domain.Song Project.Data.Repository::GetSongById(System.Int32)": {
+          "Lines": {
+            "112": 1,
+            "113": 1,
+            "114": 1,
+            "115": 1
+          },
+          "Branches": []
+        },
+        "Project.Domain.Song Project.Data.Repository::GetSongByTitle(System.String)": {
+          "Lines": {
+            "118": 1,
+            "119": 1,
+            "120": 1,
+            "121": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Project.Domain.Song> Project.Data.Repository::GetSongs()": {
+          "Lines": {
+            "124": 4,
+            "125": 4,
+            "126": 4
+          },
+          "Branches": []
+        },
+        "System.Void Project.Data.Repository::UpdateJournal(Project.Domain.Journal)": {
+          "Lines": {
+            "129": 1,
+            "130": 1,
+            "131": 1,
+            "132": 1
+          },
+          "Branches": []
+        },
+        "System.Void Project.Data.Repository::UpdatePerson(Project.Domain.Person)": {
+          "Lines": {
+            "135": 1,
+            "136": 1,
+            "137": 1,
+            "138": 1
+          },
+          "Branches": []
+        },
+        "System.Void Project.Data.Repository::UpdatePlayList(Project.Domain.PlayList)": {
+          "Lines": {
+            "141": 1,
+            "142": 1,
+            "143": 1,
+            "144": 1
+          },
+          "Branches": []
+        },
+        "System.Void Project.Data.Repository::UpdateSong(Project.Domain.Song)": {
+          "Lines": {
+            "147": 1,
+            "148": 1,
+            "149": 1,
+            "150": 1
+          },
+          "Branches": []
+        },
+        "System.Int32 Project.Data.Repository::Save()": {
+          "Lines": {
+            "153": 12,
+            "154": 12,
+            "155": 12
+          },
+          "Branches": []
+        },
+        "System.Void Project.Data.Repository::.ctor(Project.Data.Entities.CobraKaiDbContext)": {
+          "Lines": {
+            "13": 22,
+            "14": 22,
+            "15": 22,
+            "16": 22
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\Project2Sonar\\Project2Solution\\Project.Data\\Migrations\\20190615211724_Context.cs": {
+      "Project.Data.Migrations.Context": {
+        "System.Void Project.Data.Migrations.Context::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0
+          },
+          "Branches": [
+            {
+              "Line": 10,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 13,
+              "EndOffset": 38,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 45,
+              "EndOffset": 47,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 45,
+              "EndOffset": 70,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 88,
+              "EndOffset": 90,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 88,
+              "EndOffset": 113,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 120,
+              "EndOffset": 122,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 120,
+              "EndOffset": 145,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 163,
+              "EndOffset": 165,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 163,
+              "EndOffset": 188,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 195,
+              "EndOffset": 197,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 195,
+              "EndOffset": 220,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 74,
+              "Offset": 238,
+              "EndOffset": 240,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 74,
+              "Offset": 238,
+              "EndOffset": 263,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 74,
+              "Offset": 270,
+              "EndOffset": 272,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 74,
+              "Offset": 270,
+              "EndOffset": 295,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Project.Data.Migrations.Context::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "127": 0,
+            "128": 0,
+            "130": 0,
+            "131": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\Project2Sonar\\Project2Solution\\Project.Data\\Migrations\\20190615211724_Context.Designer.cs": {
+      "Project.Data.Migrations.Context": {
+        "System.Void Project.Data.Migrations.Context::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "136": 0
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 66,
+              "EndOffset": 68,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 66,
+              "EndOffset": 91,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 109,
+              "EndOffset": 111,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 109,
+              "EndOffset": 134,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 68,
+              "Offset": 152,
+              "EndOffset": 154,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 68,
+              "Offset": 152,
+              "EndOffset": 177,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 89,
+              "Offset": 195,
+              "EndOffset": 197,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 89,
+              "Offset": 195,
+              "EndOffset": 220,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 238,
+              "EndOffset": 240,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 238,
+              "EndOffset": 263,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 125,
+              "Offset": 281,
+              "EndOffset": 283,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 125,
+              "Offset": 281,
+              "EndOffset": 306,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Revature\\Project2Sonar\\Project2Solution\\Project.Data\\Migrations\\CobraKaiDbContextModelSnapshot.cs": {
+      "Project.Data.Migrations.CobraKaiDbContextModelSnapshot": {
+        "System.Void Project.Data.Migrations.CobraKaiDbContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "15": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "134": 0
+          },
+          "Branches": [
+            {
+              "Line": 22,
+              "Offset": 66,
+              "EndOffset": 68,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 66,
+              "EndOffset": 91,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 109,
+              "EndOffset": 111,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 109,
+              "EndOffset": 134,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 152,
+              "EndOffset": 154,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 152,
+              "EndOffset": 177,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 87,
+              "Offset": 195,
+              "EndOffset": 197,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 87,
+              "Offset": 195,
+              "EndOffset": 220,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 112,
+              "Offset": 238,
+              "EndOffset": 240,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 112,
+              "Offset": 238,
+              "EndOffset": 263,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 123,
+              "Offset": 281,
+              "EndOffset": 283,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 123,
+              "Offset": 281,
+              "EndOffset": 306,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Revature\\Project2Sonar\\Project2Solution\\Project.Data\\Entities\\CobraKaiDbContext.cs": {
+      "Project.Data.Entities.CobraKaiDbContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<Project.Data.Entities.Journal> Project.Data.Entities.CobraKaiDbContext::get_Journals()": {
+          "Lines": {
+            "22": 16
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Project.Data.Entities.Person> Project.Data.Entities.CobraKaiDbContext::get_People()": {
+          "Lines": {
+            "24": 14
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Project.Data.Entities.Playlist> Project.Data.Entities.CobraKaiDbContext::get_Playlists()": {
+          "Lines": {
+            "26": 16
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Project.Data.Entities.Song> Project.Data.Entities.CobraKaiDbContext::get_Songs()": {
+          "Lines": {
+            "28": 13
+          },
+          "Branches": []
+        },
+        "System.Void Project.Data.Entities.CobraKaiDbContext::OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)": {
+          "Lines": {
+            "32": 4,
+            "34": 4,
+            "36": 4,
+            "38": 4
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            },
+            {
+              "Line": 34,
+              "Offset": 12,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            }
+          ]
+        },
+        "System.Void Project.Data.Entities.CobraKaiDbContext::.ctor()": {
+          "Lines": {
+            "14": 4,
+            "15": 4,
+            "17": 4
+          },
+          "Branches": []
+        },
+        "System.Void Project.Data.Entities.CobraKaiDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<Project.Data.Entities.CobraKaiDbContext>)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\Project2Sonar\\Project2Solution\\Project.Data\\Entities\\Journal.cs": {
+      "Project.Data.Entities.Journal": {
+        "System.Int32 Project.Data.Entities.Journal::get_Id()": {
+          "Lines": {
+            "11": 40
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> Project.Data.Entities.Journal::get_PersonId()": {
+          "Lines": {
+            "13": 29
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> Project.Data.Entities.Journal::get_SongId()": {
+          "Lines": {
+            "15": 29
+          },
+          "Branches": []
+        },
+        "System.String Project.Data.Entities.Journal::get_Title()": {
+          "Lines": {
+            "16": 22
+          },
+          "Branches": []
+        },
+        "System.String Project.Data.Entities.Journal::get_JournalEntry()": {
+          "Lines": {
+            "17": 23
+          },
+          "Branches": []
+        },
+        "Project.Data.Entities.Person Project.Data.Entities.Journal::get_Person()": {
+          "Lines": {
+            "19": 8
+          },
+          "Branches": []
+        },
+        "Project.Data.Entities.Song Project.Data.Entities.Journal::get_Song()": {
+          "Lines": {
+            "20": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\Project2Sonar\\Project2Solution\\Project.Data\\Entities\\Person.cs": {
+      "Project.Data.Entities.Person": {
+        "System.Int32 Project.Data.Entities.Person::get_Id()": {
+          "Lines": {
+            "17": 49
+          },
+          "Branches": []
+        },
+        "System.String Project.Data.Entities.Person::get_Email()": {
+          "Lines": {
+            "18": 29
+          },
+          "Branches": []
+        },
+        "System.String Project.Data.Entities.Person::get_Firstname()": {
+          "Lines": {
+            "19": 28
+          },
+          "Branches": []
+        },
+        "System.String Project.Data.Entities.Person::get_Lastname()": {
+          "Lines": {
+            "20": 28
+          },
+          "Branches": []
+        },
+        "System.String Project.Data.Entities.Person::get_Username()": {
+          "Lines": {
+            "21": 28
+          },
+          "Branches": []
+        },
+        "System.String Project.Data.Entities.Person::get_Password()": {
+          "Lines": {
+            "22": 28
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<Project.Data.Entities.Journal> Project.Data.Entities.Person::get_Journal()": {
+          "Lines": {
+            "24": 19
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<Project.Data.Entities.Playlist> Project.Data.Entities.Person::get_Playlist()": {
+          "Lines": {
+            "25": 19
+          },
+          "Branches": []
+        },
+        "System.Void Project.Data.Entities.Person::.ctor()": {
+          "Lines": {
+            "10": 11,
+            "11": 11,
+            "12": 11,
+            "13": 11,
+            "14": 11
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\Project2Sonar\\Project2Solution\\Project.Data\\Entities\\Playlist.cs": {
+      "Project.Data.Entities.Playlist": {
+        "System.Int32 Project.Data.Entities.Playlist::get_Id()": {
+          "Lines": {
+            "11": 60
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> Project.Data.Entities.Playlist::get_PersonId()": {
+          "Lines": {
+            "13": 49
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> Project.Data.Entities.Playlist::get_SongId()": {
+          "Lines": {
+            "15": 49
+          },
+          "Branches": []
+        },
+        "System.String Project.Data.Entities.Playlist::get_Title()": {
+          "Lines": {
+            "16": 43
+          },
+          "Branches": []
+        },
+        "Project.Data.Entities.Person Project.Data.Entities.Playlist::get_Person()": {
+          "Lines": {
+            "18": 8
+          },
+          "Branches": []
+        },
+        "Project.Data.Entities.Song Project.Data.Entities.Playlist::get_Song()": {
+          "Lines": {
+            "19": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\Project2Sonar\\Project2Solution\\Project.Data\\Entities\\Song.cs": {
+      "Project.Data.Entities.Song": {
+        "System.Int32 Project.Data.Entities.Song::get_Id()": {
+          "Lines": {
+            "17": 52
+          },
+          "Branches": []
+        },
+        "System.String Project.Data.Entities.Song::get_Title()": {
+          "Lines": {
+            "18": 34
+          },
+          "Branches": []
+        },
+        "System.String Project.Data.Entities.Song::get_Artist()": {
+          "Lines": {
+            "19": 34
+          },
+          "Branches": []
+        },
+        "System.String Project.Data.Entities.Song::get_Genre()": {
+          "Lines": {
+            "20": 34
+          },
+          "Branches": []
+        },
+        "System.Decimal Project.Data.Entities.Song::get_Size()": {
+          "Lines": {
+            "21": 33
+          },
+          "Branches": []
+        },
+        "System.String Project.Data.Entities.Song::get_Length()": {
+          "Lines": {
+            "22": 34
+          },
+          "Branches": []
+        },
+        "System.String Project.Data.Entities.Song::get_ReleaseDate()": {
+          "Lines": {
+            "23": 34
+          },
+          "Branches": []
+        },
+        "System.String Project.Data.Entities.Song::get_FilePath()": {
+          "Lines": {
+            "24": 34
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<Project.Data.Entities.Playlist> Project.Data.Entities.Song::get_Playlists()": {
+          "Lines": {
+            "26": 26
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<Project.Data.Entities.Journal> Project.Data.Entities.Song::get_Journals()": {
+          "Lines": {
+            "27": 26
+          },
+          "Branches": []
+        },
+        "System.Void Project.Data.Entities.Song::.ctor()": {
+          "Lines": {
+            "10": 18,
+            "11": 18,
+            "12": 18,
+            "13": 18,
+            "14": 18
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Project.Domain.dll": {
+    "C:\\Revature\\Project2Sonar\\Project2Solution\\Project.Domain\\Journal.cs": {
+      "Project.Domain.Journal": {
+        "System.Int32 Project.Domain.Journal::get_Id()": {
+          "Lines": {
+            "9": 16
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> Project.Domain.Journal::get_PersonId()": {
+          "Lines": {
+            "13": 10
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> Project.Domain.Journal::get_SongId()": {
+          "Lines": {
+            "16": 10
+          },
+          "Branches": []
+        },
+        "System.String Project.Domain.Journal::get_Title()": {
+          "Lines": {
+            "18": 11
+          },
+          "Branches": []
+        },
+        "System.String Project.Domain.Journal::get_JournalEntry()": {
+          "Lines": {
+            "20": 14
+          },
+          "Branches": []
+        },
+        "Project.Domain.Person Project.Domain.Journal::get_Person()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Project.Domain.Song> Project.Domain.Journal::get_Song()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\Project2Sonar\\Project2Solution\\Project.Domain\\Person.cs": {
+      "Project.Domain.Person": {
+        "System.Int32 Project.Domain.Person::get_Id()": {
+          "Lines": {
+            "11": 30
+          },
+          "Branches": []
+        },
+        "System.String Project.Domain.Person::get_Email()": {
+          "Lines": {
+            "14": 20
+          },
+          "Branches": []
+        },
+        "System.String Project.Domain.Person::get_Username()": {
+          "Lines": {
+            "16": 17
+          },
+          "Branches": []
+        },
+        "System.String Project.Domain.Person::get_Password()": {
+          "Lines": {
+            "18": 17
+          },
+          "Branches": []
+        },
+        "System.String Project.Domain.Person::get_FirstName()": {
+          "Lines": {
+            "20": 17
+          },
+          "Branches": []
+        },
+        "System.String Project.Domain.Person::get_LastName()": {
+          "Lines": {
+            "22": 17
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\Project2Sonar\\Project2Solution\\Project.Domain\\PlayList.cs": {
+      "Project.Domain.PlayList": {
+        "System.Int32 Project.Domain.PlayList::get_Id()": {
+          "Lines": {
+            "10": 57
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> Project.Domain.PlayList::get_PersonId()": {
+          "Lines": {
+            "13": 30
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> Project.Domain.PlayList::get_SongId()": {
+          "Lines": {
+            "16": 30
+          },
+          "Branches": []
+        },
+        "System.String Project.Domain.PlayList::get_Title()": {
+          "Lines": {
+            "19": 33
+          },
+          "Branches": []
+        },
+        "Project.Domain.Person Project.Domain.PlayList::get_Person()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Project.Domain.Song> Project.Domain.PlayList::get_Songs()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Revature\\Project2Sonar\\Project2Solution\\Project.Domain\\Song.cs": {
+      "Project.Domain.Song": {
+        "System.Int32 Project.Domain.Song::get_Id()": {
+          "Lines": {
+            "12": 47
+          },
+          "Branches": []
+        },
+        "System.String Project.Domain.Song::get_Title()": {
+          "Lines": {
+            "14": 27
+          },
+          "Branches": []
+        },
+        "System.String Project.Domain.Song::get_Artist()": {
+          "Lines": {
+            "16": 26
+          },
+          "Branches": []
+        },
+        "System.String Project.Domain.Song::get_Genre()": {
+          "Lines": {
+            "18": 26
+          },
+          "Branches": []
+        },
+        "System.Decimal Project.Domain.Song::get_Size()": {
+          "Lines": {
+            "20": 27
+          },
+          "Branches": []
+        },
+        "System.String Project.Domain.Song::get_Length()": {
+          "Lines": {
+            "22": 26
+          },
+          "Branches": []
+        },
+        "System.String Project.Domain.Song::get_ReleaseDate()": {
+          "Lines": {
+            "24": 26
+          },
+          "Branches": []
+        },
+        "System.String Project.Domain.Song::get_FilePath()": {
+          "Lines": {
+            "26": 26
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
