@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-
 using Microsoft.Azure.Management.Media;
 using Microsoft.Azure.Management.Media.Models;
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -12,17 +11,16 @@ using Microsoft.Extensions.Configuration;
 using System.Threading.Tasks;
 using System.Runtime.CompilerServices;
 using Microsoft.WindowsAzure.Storage.Blob;
-using Project.Client;
 
 namespace Prototype.Player.Azure {
 
     public class MediaServicesClient {
 
-        private static Configuration _configuration;
-        private static ClientCredential _clientCredential;
-        private static ServiceClientCredentials _serviceClientCredentials;
+        private static Configuration             _configuration;
+        private static ClientCredential          _clientCredential;
+        private static ServiceClientCredentials  _serviceClientCredentials;
         private static IAzureMediaServicesClient _client;
-        private static Transform _encoding;
+        private static Transform                 _encoding;
 
         /// <summary>
         /// Creates credentials for the Azure Media Service based on credentials from Configuration (appsettings.json)
@@ -444,7 +442,7 @@ namespace Prototype.Player.Azure {
 
         }
 
-        public static Task < IAzureMediaServicesClient > Client { get { return ( Task < IAzureMediaServicesClient >)_client; } }
+        public static IAzureMediaServicesClient Client { get { return _client; } }
 
         public static Configuration Configuration { get { return _configuration; } }
 
