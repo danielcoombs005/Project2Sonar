@@ -1,16 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 
 namespace Project.Client
 {
@@ -21,6 +14,7 @@ namespace Project.Client
             Configuration = configuration;
         }
 
+        // This method gets called by the runtime. Use this method to add services to the container.
         readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
         public IConfiguration Configuration { get; }
@@ -28,18 +22,19 @@ namespace Project.Client
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
             services.AddCors(options =>
             {
-                options.AddDefaultPolicy(builder =>
-                {
-                    //please update
-                    builder.WithOrigins("http://example.com",
-                                        "http://www.contoso.com");
-                    //builder.AllowAnyOrigin(); //allows any user to use this api
+                options.AddPolicy(MyAllowSpecificOrigins,
+                    builder => builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowAnyOrigin()
+                    .WithHeaders("Accept", "Content-Type", "Origin", "X-My-Header")
+                    .WithExposedHeaders("Content-Disposition", "Content-Length"));
 
-
-                });
             });
+
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
@@ -55,6 +50,7 @@ namespace Project.Client
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                //app.UseMaintainCorsHeaders();
             }
             else
             {

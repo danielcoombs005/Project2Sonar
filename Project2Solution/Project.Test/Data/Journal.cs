@@ -1,8 +1,5 @@
 ﻿using NUnit.Framework;
-using System;
 using System.Collections.Generic;
-using System.Text;
-using Project.Data;
 
 namespace Project.Test
 {
@@ -45,7 +42,7 @@ namespace Project.Test
             unitTest = a.GetJournalById(jour);
             Assert.AreEqual(unitTest.JournalEntry, "Test 1");
         }
-        
+
         //test GetJournalByTitle(string title)
         [Test]
         public void B_Read_3()

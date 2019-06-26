@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Project.Data.Entities
 {
@@ -18,7 +16,7 @@ namespace Project.Data.Entities
         public string Title { get; set; }
         public string Artist { get; set; }
         public string Genre { get; set; }
-        public decimal Size { get; set; }
+        public string Size { get; set; }
         public string Length { get; set; }
         public string ReleaseDate { get; set; }
         public string FilePath { get; set; }

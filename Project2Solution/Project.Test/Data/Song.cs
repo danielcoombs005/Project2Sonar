@@ -1,8 +1,4 @@
 ﻿using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using Project.Data;
 
 namespace Project.Test
 {
@@ -21,7 +17,7 @@ namespace Project.Test
                 Title = "Encore",
                 Artist = "Linkin Park",
                 Genre = "Rock",
-                Size = 3.45M,
+                Size = "3.45",
                 Length = "3.7",
                 ReleaseDate = "1993",
                 FilePath = "audio/file"
@@ -33,6 +29,7 @@ namespace Project.Test
             Assert.Pass();
         }
 
+        [Test]
         public void B_Read_1()
         {
             Project.Data.Repository repo = new Project.Data.Repository(db);
@@ -67,7 +64,7 @@ namespace Project.Test
             {
                 songId = i.Id;
             }
-            Project.Domain.Song song = repo.GetSongByTitle("Encore");
+            Project.Domain.Song song = repo.GetSongByTitle("Encore", "Linkin Park");
             Assert.AreEqual(song.Id, songId);
         }
 
@@ -76,7 +73,8 @@ namespace Project.Test
         {
             Project.Data.Repository repo = new Project.Data.Repository(db);
             int songid = 0;
-            foreach (var i in repo.GetSongs()) {
+            foreach (var i in repo.GetSongs())
+            {
                 songid = i.Id;
             }
             Project.Domain.Song songTest = new Project.Domain.Song()
@@ -86,13 +84,13 @@ namespace Project.Test
                 Title = "Encore",
                 Artist = "Linkin Park",
                 Genre = "Rock",
-                Size = 3.45M,
+                Size = "3.45",
                 Length = "3.7",
                 ReleaseDate = "1993",
                 FilePath = "audio/file"
             };
 
-            
+
             repo.UpdateSong(songTest);
 
             Assert.Pass();

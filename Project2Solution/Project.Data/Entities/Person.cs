@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Project.Data.Entities
 {
@@ -12,7 +10,16 @@ namespace Project.Data.Entities
             Journal = new HashSet<Journal>();
             Playlist = new HashSet<Playlist>();
         }
-        
+
+        public Person(string Email, string Firstname, string Lastname, string Username, string Password)
+        {
+            this.Email = Email;
+            this.Firstname = Firstname;
+            this.Lastname = Lastname;
+            this.Username = Username;
+            this.Password = Password;
+        }
+
         [Key]
         public int Id { get; set; }
         public string Email { get; set; }
